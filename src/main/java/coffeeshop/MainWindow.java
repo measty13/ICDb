@@ -19,9 +19,10 @@ public class MainWindow extends JFrame {
     private final JTextField typeField = new JTextField(5);
     private final JTextField weightField = new JTextField(5);
     private final JTextField bakingField = new JTextField(5);
-    private final JComboBox roastingBox = new JComboBox(Roasting.values());  //TODO replace bakingField in addDialog with roastingBox that displays Roasting enum options
+    private final JComboBox roastingBox = new JComboBox(Roasting.values());  
+    //TODO replace bakingField in addDialog with roastingBox that displays Roasting enum options
 
-    //TODO add reasonable response in catch bocks
+    //TODO add reasonable response in catch blocks
     //TODO possibly add multiple formats of date input
     //TODO add case insensitivity in filtering
     //TODO clean up Coffee class (remove unnecessary / add missing attributes)
