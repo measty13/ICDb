@@ -1,4 +1,1 @@
-Oskar Spacek
-
-pv168
 
